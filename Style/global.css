@@ -48,6 +48,14 @@
  #main_content button {
     background-color: magenta;
     color: white;
+    margin: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 50px;
+    padding: 0px 28px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 15px;
  }
  
  #main_content button:hover {
