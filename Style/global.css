@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+
+
+/* Containers */
+ body {
+	background-color: white;
+ } 
+
+ #banner {
+	height: 100px;
+	width: 10%;
+ }
+
+ #banner h1 { 
+	font-family: helvetica;
+ }
+ 
+ #banner img {
+  height: 150px;
+ }
+
+ #main_content {
+ 	width: 90;
+ 	font-family: helvetica;
+ 	color: black;
+ 	background-color: pink;
+ 	border:  5px solid pink;
+ 	border-radius: 20px;
+ }
+
+ #main_content h2, p {
+ 	margin-top: 25px;
+ 	margin-left: 25px;
+  margin-right: 25px;
+ }
+
+#main_content p {
+	margin-left: 25px;
+}
+
+ #main_content img {
+  margin: 25px;
+  border: 1px solid black;
+  border-radius: 10px;
+ }
+ 
+ #main_content button {
+    background-color: magenta;
+    color: white;
+ }
+ 
+ #main_content button:hover {
+   background-color: white;
+   color: black;
+}
+
+#footer {
+    width: 100%;
+    clear: both;
+    margin-top: 400px;
+    margin-bottom: 25px;
+    color: black;
+}
+
+#footer p {
+    font-family: helvetica;
+    font-variant: small-caps;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/*Hyperlink Rules*/
+a:link {
+    color: white;
+    cursor: pointer;
+}
+
+a:visited {
+    color: white;
+    cursor: pointer;
+}
+
+a:hover {
+    color: magenta;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
